@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base de Datos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/bd.png">
+</head>
+<body>
+    <header id="header">
+        <h1>Modelado de un sistema de Base de Datos</h1>
+        <br>
+        <section class="profile">
+            <div class="profile-photo"></div>
+            
+            <div class="profile-name">Eder Aldair Bernal Gutierrez</div>
+            <div class="profile-id">s19017417</div>
+        </section>
+    </header>
+    <main>
+        <article class="container">
+            <div class="article-updating">Última vez actualizado el dia 02 de Octubre del 2023</div>
+            <div class="line"></div>
+            <section id="definicion">
+                <div class="section-header">
+                    <h1 class="title"><span class="num-section">1.</span>¿Qué es una Base de Datos?</h1>
+                    <a href="https://www.oracle.com/mx/database/what-is-database/" target="_blank" class="links">Más información</a>
+                </div>
+                <p>
+                    Una base de datos es una recopilación organizada de información o datos estructurados,
+                    que normalmente se almacena de forma electrónica en un sistema informático. Normalmente,
+                    una base de datos está controlada por un sistema de gestión de bases de datos (DBMS). En conjunto,
+                    los datos y el DBMS, junto con las aplicaciones asociadas a ellos, reciben el nombre de sistema de bases de datos,
+                    abreviado normalmente a simplemente base de datos.
+
+                    Los datos de los tipos más comunes de bases de datos en funcionamiento actualmente se suelen utilizar como estructuras de filas y columnas
+                    en una serie de tablas para aumentar la eficacia del procesamiento y la consulta de datos. Así, se puede acceder, gestionar, modificar, actualizar,
+                    controlar y organizar fácilmente los datos. La mayoría de las bases de datos utilizan un lenguaje de consulta estructurada (SQL) para escribir y consultar datos.
+                </p>
+                <img class="image" src="https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2022/06/sistema-gestor-de-base-de-datos-2-1024x640.jpg"/>
+            </section>
+            <section id="modelado">
+                <div class="section-header">
+                    <h1 class="title"><span class="num-section">2.</span>¿Qué es el modelado de datos?</h1>
+                    <a href="https://aws.amazon.com/es/what-is/data-modeling/" target="_blank" class="links">Más información</a>
+                </div>
+                <p>
+                    El modelado de datos es el proceso de creación de una representación visual o esquema que define
+                    los sistemas de recopilación y administración de información de cualquier organización. Este
+                    esquema o modelo de datos ayuda a las diferentes partes interesadas, como analistas de datos,
+                    científicos e ingenieros, a crear una vista unificada de los datos de una organización. 
+                    El modelo esboza los datos que recoge la empresa, la relación entre los distintos conjuntos 
+                    de datos y los métodos que se usarán para almacenarlos y analizarlos.
+                </p>
+                <img class="image" src="https://bookdown.org/paranedagarcia/database/images/db-fisico.png" width="50" height="50" />
+            </section>
+            <section class="importancia">
+                <div class="section-header">
+                    <h1 class="title"><span class="num-section">3.</span>¿Por qué es importante el modelado de datos?</h1>
+                    <a href="https://aws.amazon.com/es/what-is/data-modeling/" target="_blank" class="links">Más información sobre éste tema</a>
+                </div>
+                <p>
+                    Hoy en día, las organizaciones recogen una gran cantidad de datos procedentes de muchas fuentes diferentes. 
+                    Sin embargo, los datos en bruto no son suficientes. Es necesario analizar los datos para obtener información 
+                    procesable que pueda guiar a la hora de tomar decisiones empresariales rentables. Un análisis de datos preciso 
+                    requiere de una recopilación, almacenamiento y procesamiento de datos eficientes. Existen varias tecnologías 
+                    de bases de datos y herramientas de procesamiento de datos, así como diferentes conjuntos de datos que requieren 
+                    diferentes herramientas para un análisis eficaz.
+
+                    El modelado de datos le da la oportunidad de entender sus datos y tomar las decisiones tecnológicas correctas 
+                    para almacenarlos y gestionarlos. Al igual que un arquitecto diseña un esquema antes de construir una casa, las 
+                    partes interesadas del negocio diseñan un modelo de datos antes de crear soluciones de bases de datos para su organización.
+
+                    El modelado de datos aporta las siguientes ventajas:
+                </p>
+                <ul>
+                    <li>Reduce los errores en el desarrollo de software de bases de datos</li>
+                    <li>Facilita la rapidez y eficacia en el diseño y creación de bases de datos</li>
+                    <li>Crea coherencia en la documentación de los datos y el diseño del sistema en toda la organización</li>
+                    <li>Facilita la comunicación entre los ingenieros de datos y los departamentos de inteligencia empresarial</li>
+                </ul>
+            </section>
+            <section>
+                <div class="section-header">
+                    <h1 class="title"><span class="num-section">4.</span>Modelo de datos lógico</h1>
+                    <a href="https://aws.amazon.com/es/what-is/data-modeling/" target="_blank" class="links">Más información sobre éste tema</a>
+                </div>
+                <p>
+                    Los modelos de datos lógicos asignan las clases de datos conceptuales a estructuras de datos técnicas. 
+                    Ofrecen más detalles sobre los conceptos de datos y las relaciones de datos complejas que se identificaron 
+                    en el modelo conceptual, tales como estos: 
+                </p>
+                <ul>
+                    <li>Tipos de datos de distintos atributos (por ejemplo, cadena o número)</li>
+                    <li>Relaciones entre las entidades de datos</li>
+                    <li>Atributos primarios o campos clave de los datos</li>
+                </ul>
+                <img class="image" src="https://www.tibco.com/sites/tibco/files/media_entity/2021-06/logical-data-model-diagram.svg">
+            </section>
+            <section>
+                <div class="section-header">
+                    <h1 class="title"><span class="num-section">5.</span>Modelo de datos físico</h1>
+                    <a href="https://aws.amazon.com/es/what-is/data-modeling/" target="_blank" class="links">Más información sobre éste tema</a>
+                </div>
+                <p>
+                    Los modelos de datos físicos asignan los modelos de datos lógicos a una tecnología específica
+                     de SGBD y usan la terminología del software. Por ejemplo, dan detalles sobre lo siguiente:
+                </p>
+                <ul>
+                    <li>Tipos de campos de datos representados en el SGBD</li>
+                    <li>Relaciones de datos representadas en el SGBD</li>
+                    <li>Detalles adicionales, como el ajuste del rendimiento</li>
+                </ul>
+                <img class="image" src="https://geekflare.com/wp-content/uploads/2022/12/Physical-Data-Model-What-You-Need-to-Know.png">
+            </section>
+        </article>
+    </main>
+    <footer>
+        <section>
+            <a>Universidad Veracruzana 2023 by s19017417</a>
+        </section>
+        <p id="copyright">© Copyright</p>
+    </footer>
+</body>
+</html>
