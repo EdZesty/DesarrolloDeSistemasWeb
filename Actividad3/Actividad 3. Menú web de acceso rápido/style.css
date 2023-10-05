@@ -1,0 +1,60 @@
+html,body{
+    margin: 10;
+    padding: 10;
+}
+
+header {
+    margin: 25px;
+    background-color: #0066bb; color: #ffffff;
+    width: 98%;
+    height: 190px;
+}
+
+header h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans- serif;
+    padding: 60px;
+    font-size: 50px;
+}
+
+.images {
+background-color: #0d1d24; 
+width: 98%;
+height: 400px;
+margin: 1%; 
+}
+
+.images .page{
+
+    width: 19%;
+    height: 180px; 
+    background-color: #0d1d24; 
+    display: inline-block; 
+    margin: 0.355%;
+}
+
+footer{
+    background-color: #0066bb;
+    color:white;
+    width: 98%;
+    height: 180px;
+    margin: 1%;
+}
+
+footer p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 60px;
+    font-size: 20px;
+
+}
+
+.image_l{
+    height: 170px;
+    width: 18vw;
+    margin: 1% 0 1% 1%;
+}
+
+.image_l:hover {
+    filter: grayscale(50%);
+}
